@@ -7,6 +7,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @EntityScan
 @Document(collection="Employee")
 public class Employee {
+	
 	@Id
 	private int employeeId;
 	private String employeeName;
